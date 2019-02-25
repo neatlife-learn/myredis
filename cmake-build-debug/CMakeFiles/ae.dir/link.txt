@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libae.a  CMakeFiles/ae.dir/src/anet.c.o CMakeFiles/ae.dir/src/ae.c.o CMakeFiles/ae.dir/src/zmalloc.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libae.a
