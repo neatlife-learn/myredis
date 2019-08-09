@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/echodemo/myserver.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+errno.h
+-
+zconf.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+string.h
+-
+../src/ae.h
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/ae.h
+../src/anet.h
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/anet.h
+
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/ae.h
+time.h
+-
+
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/anet.h
+sys/types.h
+-
+

@@ -1,6 +1,7 @@
 /Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/echo-client.dir
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/my-redis-server.dir
+/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/myserver.dir
 /Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/echo-server.dir
 /Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/ae.dir
-/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/CMakeFiles/my-redis-server.dir

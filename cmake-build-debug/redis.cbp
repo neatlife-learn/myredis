@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="echo-client">
 				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/echo-client" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
@@ -66,6 +76,100 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo-client/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my-redis-server">
+				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/hiredis"/>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/linenoise"/>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my-redis-server/fast">
+				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/hiredis"/>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/linenoise"/>
+					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/lua/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myserver">
+				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/myserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 myserver"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myserver/fast">
+				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/myserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 myserver/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -159,66 +263,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="my-redis-server">
-				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/hiredis"/>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/linenoise"/>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/lua/src"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="my-redis-server/fast">
-				<Option output="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/hiredis"/>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/linenoise"/>
-					<Add directory="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/deps/lua/src"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/echodemo/echo-client.c">
 			<Option target="echo-client"/>
@@ -234,6 +278,9 @@
 			<Option target="echo-client"/>
 			<Option target="echo-server"/>
 		</Unit>
+		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/echodemo/myserver.c">
+			<Option target="myserver"/>
+		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/adlist.c">
 			<Option target="my-redis-server"/>
 		</Unit>
@@ -241,15 +288,15 @@
 			<Option target="my-redis-server"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/ae.c">
-			<Option target="ae"/>
 			<Option target="my-redis-server"/>
+			<Option target="ae"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/ae.h">
 			<Option target="my-redis-server"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/anet.c">
-			<Option target="ae"/>
 			<Option target="my-redis-server"/>
+			<Option target="ae"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/anet.h">
 			<Option target="my-redis-server"/>
@@ -546,8 +593,8 @@
 			<Option target="my-redis-server"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/zmalloc.c">
-			<Option target="ae"/>
 			<Option target="my-redis-server"/>
+			<Option target="ae"/>
 		</Unit>
 		<Unit filename="/Users/suxiaolin/Dropbox/Projects/redis-4.0.1/src/zmalloc.h">
 			<Option target="my-redis-server"/>

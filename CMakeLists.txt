@@ -147,5 +147,7 @@ add_library(ae src/anet.c src/ae.c src/zmalloc.c)
 #For Echo Client/Server Demo
 add_executable(echo-server echodemo/echo-server.c echodemo/echo.c echodemo/echo.h)
 add_executable(echo-client echodemo/echo-client.c echodemo/echo.c echodemo/echo.h)
+add_executable(myserver echodemo/myserver.c)
 target_link_libraries(echo-server ae)
 target_link_libraries(echo-client ae)
+target_link_libraries(myserver ae)
